@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.about-me {
+    margin-bottom: 30px;
+}
+
+.courses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.courses ul li {
+    margin-bottom: 10px;
+}
+
+.favorite-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-item {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.favorite-item img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Styles for course page */
+.course {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.course-title {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.assignments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.assignments ul li {
+    margin-bottom: 10px;
+}
